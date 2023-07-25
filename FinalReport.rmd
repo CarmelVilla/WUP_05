@@ -88,7 +88,8 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The odds ration of gettings aids is 0.35 times likely than someone who gets the placebo. The answer still the same.The p value is 0000001.242
+The p value is 0000001.242 from Chisq test shows that the vaccine is effective in preventing aids among drug users.
+The fisher exact test shows P value to be 00000004.23 which make us reject the Null hypothesis.The odds ratio of gettings aids is 0.35 times likely than someone who gets the placebo. The answer still the same.
 
 # Discussion and Conclusion
 
