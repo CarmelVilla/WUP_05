@@ -28,7 +28,7 @@ Data for this study came from a clinical trial found in triUmpsal
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
-The method of choice would be cat~cat because we want to see if the drug is affective. The manipulitation is to subset the data only to illicit drug users.The question is about drug users
+The method of choice would be cat~cat because we want to see if the drug is affective. The manipulitation is to subset the data only to illicit drug users.The question is the vaccine effective among drug users.
 
 Graphical display: bar chart, numerical display that is a bar display.The inferential way is a chisq test
 
@@ -59,7 +59,7 @@ barchartGC(~infected+treatment,data=DruggieData, type="percent")
 
 ```
 
-  The graph shows there is a difference among those who received the drug and the placebo.The once who did get aids the drugs was effective. The ones who received the placebo it did not make much of a difference
+  The graph shows there is a difference among those who received the drug and the placebo.Amoung those who got aids is where you see a difference. The once who did get aids the drugs was effective. The ones who received the placebo it did not make much of a difference. If you got the placebo then you most likely will get aids.
 
 ### Numerical Descriptive Results
 
