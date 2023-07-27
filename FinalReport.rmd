@@ -70,7 +70,7 @@ table1 <- xtabs(~infected+treatment,data=DruggieData)
 rowPerc(table1)
 colPerc(table1)
 ```
-Among those who received the placebo you are more three times more likely to get aids. The drug seems to be effective as only 24.29 were better off. The vaccines is better than the placebo. 
+Among those who received the placebo you are three times more likely to get aids. The drug seems to be effective as only 24.29 were better off. The vaccines is better than the placebo. 
 
 
 
